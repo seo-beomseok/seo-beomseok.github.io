@@ -31,13 +31,27 @@
     $("#header").load("header.html");
     });
     </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      
+      #section1 {
+        background-color: gray;
+      }
+      
+      #section2 {
+        background-color: lightgray;
+      }
+    </style>
   </head>
   <body>
     <div class="wrapper">
       <header>
         <div id="header"></div>
       </header>
-      <section>
+      <section id="section1">
+        <h1>About</h1>
         <img src="img/beomseok.jpg" alt="beomseok" height="300">
         <h1>About Me</h1>
           <p>I am an Economist and Data scientist in <a href="http://www.bok.or.kr/eng/">Bank of Korea</a>. I recieved my Ph.D. in <a href=https://science.psu.edu/stat">Statistics</a> at Pennsylvania State University 
@@ -45,7 +59,7 @@
                       
           <p>I am currently working on various text-related economic and financial problems and machine learning modeling for economic data.</p>
             
-          <h1>Research Interests</h1>
+          <h2>Research Interests</h2>
           <p>My research interests include a range of related problems in:
             <ul>
               <li> Interpretable neural networks and machine learning,
@@ -62,6 +76,45 @@
         
        
       </section>
+            
+      <section id="section2">
+        <h1>Publications</h1>
+            
+        <h2>Peer-reviewed Journal Articles</h2>
+        <ul>
+          <li><b>Seo, B.</b>*, (2021). <a href="https://etda.libraries.psu.edu/files/final_submissions/24022">Interpretable Statistical Learning: From Hidden Markov Models to Neural Networks (Ph.D. Dissertation).</a> Penn State University.  </li><br>
+          <li><b>Seo, B.</b>*, Lin, L., & Li, J. (2021+). <a href="https://arxiv.org/pdf/2108.04035.pdf">Mixture of Linear Models Co-supervised by Deep Neural Networks.</a> Accepted by Journal of Computational and Graphical Statistics.</li><br>
+          <li><b>Seo, B.</b>*, Lin, L., & Li, J. (2021). <a href="https://www.tandfonline.com/doi/abs/10.1080/10618600.2021.1982724?journalCode=ucgs20">Block-wise Variable Selection for Clustering via Latent States of Mixture Models.</a> Journal of Computational and Graphical Statistics, 31(1), 138-150.</li><br>
+          <li>Li, J., <b>Seo, B.</b>, & Lin, L. (2019). <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/sam.11418">Optimal transport, mean partition, and uncertainty assessment in cluster analysis.</a> Statistical Analysis and Data Mining: The ASA Data Science Journal, 12(5), 359-377.</li>
+        </ul>
+        <p class="tab">* Corresponding author</p>
+        
+        <h2>In Progress</h2>
+        <ul>
+          <li><b>Seo, B.</b>, & Li, J., SEE-Net: Synced and Explanation-Enhanced Neural Network.</li><br>  
+          <li><b>Seo, B.</b>, Cohort Analysis for Homogeneous Consumption Behavior Using Explainable Neural Network.</li><br>
+          <li><b>Seo, B.</b>, Information Extraction from Ubiquitous Text Data for Text-enhanced Now-casting.</li><br>
+          <li><b>Seo, B.</b>, & Li. J., EM Algorithm for Parametric Approximation of Neural Networks.</li><br>
+          <li>Chang, Y. -L., & <b>Seo, B.</b>, Using Explainable AI to Explore the Key Features in the Future of Work, Workers, and Workplace.  </li><br>
+        </ul>
+        
+        <h2>Working Papers</h2>
+        <ul>
+          <li> <b>서범석</b>, 이영환, 조형배, (2022). <a href="./files/기계학습을 이용한 뉴스심리지수(NSI)의 작성과 활용 - 서범석.pdf">기계학습을 이용한 뉴스심리지수(NSI)의 작성과 활용</a>. 국민계정리뷰, 2022(1), 68-90.</li><br>
+          <li> Lee, Y., <b>Seo, B.</b>, (2022). Extracting Economic Sentiment from News Articles: The Case of Korea. Irving Fisher Committee(IFC) on Central Bank Statistics Conference in BIS 2022.</li><br>
+          <li> 신승준, <b>서범석</b>, (2022+). 빅데이터를 이용한 실시간 민간소비 추정</li><br>
+          <li> <b>서범석</b>, (2022+). 뉴스 텍스트를 이용한 단기경제전망</li><br>
+        </ul>
+        
+        <h2>Magazine</h2>
+        <ul>
+          <li> <b>서범석</b>, (2021). <a href="./files/설명가능한 인공지능 - 서범석.pdf">설명가능한 인공지능?</a> 한은소식, 2021(9), 36-39.</li><br>
+          <li> <b>서범석</b>, (2020). <a href="./files/텍스트마이닝으로 분석한 한은소식 - 서범석.pdf">텍스트마이닝으로 분석한 한은소식</a>. 한은소식, 2020(5), 20-21.</li><br>
+        </ul>
+        
+      </section>
+            
+            
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>

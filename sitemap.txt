@@ -1,0 +1,5 @@
+http://seo-beomseok.github.io/index.html
+http://seo-beomseok.github.io/publications.html
+http://seo-beomseok.github.io/teaching.html
+http://seo-beomseok.github.io/experience.html
+http://seo-beomseok.github.io/codes.html

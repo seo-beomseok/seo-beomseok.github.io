@@ -202,7 +202,7 @@ video {
   height: auto;
 }
 
-@media print, screen and (max-width: 1920px) { /*960px*/
+@media print, screen and (max-width: 1000px) { /*960px*/
 
   div.wrapper {
     width:auto;

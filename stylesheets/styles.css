@@ -56,9 +56,9 @@ a:hover small {
 
 .wrapper {
   /*width:860px;*/
-  width:1280px;
-  /*margin:0 auto;*/
-  margin:0;
+  width:1920px;
+  margin:0 auto;
+  /*margin:0;*/
 }
 
 blockquote {
@@ -202,7 +202,7 @@ video {
   height: auto;
 }
 
-@media print, screen and (max-width: 2560px) { /*960px*/
+@media print, screen and (max-width: 1920px) { /*960px*/
 
   div.wrapper {
     width:auto;
